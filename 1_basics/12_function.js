@@ -86,4 +86,4 @@ console.log(multiplyAll(3, 4, 5, 6, 7, 8, 9, 10))
 console.log('-----')
 
 console.log(typeof multiply)
-console.log(multiply instanceof Object)
+console.log(multiply instanceof Object) // true 즉, Function 은 Object 타입
