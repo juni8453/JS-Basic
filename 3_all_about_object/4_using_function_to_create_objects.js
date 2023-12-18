@@ -30,11 +30,11 @@ console.log('-----')
 /**
  * Arrow Function 으로 생성자 함수(객체) 를 만들 수 있나 ?
  * 생성자 함수가 아니라는 예외 발생. 
- * 즉, 일반 함수에서만 new 키워드를 사용할 수 있다.
+ * 즉, 일반 함수에서만 new 키워드 사용 가능
  */
 const IdolModelArrow = (name, year) => {
     this.name = name
     this.year = year
 }
-// const yuJin3 = new IdolModelArrow('안유진', 2003)
-// console.log(yuJin3)
+const yuJin3 = new IdolModelArrow('안유진', 2003)
+console.log(yuJin3)
