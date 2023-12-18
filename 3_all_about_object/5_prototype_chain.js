@@ -160,4 +160,4 @@ console.log(ray.constructor === IdolModel) // true
 FemaleIdolModel.prototype = IdolModel.prototype
 const eSeo = new FemaleIdolModel('이서', 2007)
 console.log(Object.getPrototypeOf(eSeo) === FemaleIdolModel.prototype) // true
-console.log(FemaleIdolModel.prototype === IdolModel.prototype)
+console.log(FemaleIdolModel.prototype === IdolModel.prototype) // true
