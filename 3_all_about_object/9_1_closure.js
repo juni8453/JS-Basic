@@ -94,4 +94,4 @@ function Idol(name, year) {
 
 const yuJin = new Idol('안유진', 2004)
 console.log(yuJin.sayNameAndYear())
-console.log(yuJin._year)
+console.log(yuJin._year) // undefined
