@@ -82,7 +82,8 @@ console.log(mul.apply(yuJin3, [3, 4, 5]))
 
 /**
  * 3) bind() : this 를 바인딩하고 나중에 실행할 수 있다.
+ * call, apply 와 다르게 실행과 동시에 바로 함수가 실행되지만 bind 는 바인드 이후 반환된 함수를 실행할 수 있다.
  */
-const laterFunc = mul.bind(yuJin3,3, 4, 5)
+const laterFunc = mul.bind(yuJin3, 3, 4, 5)
 console.log(laterFunc)
-console.log(laterFunc())
+console.log(laterFunc()) // laterFunc 을 반환받고 함수라 () 로 실행하면 바인딩 된 값을 확인할 수 있다.
